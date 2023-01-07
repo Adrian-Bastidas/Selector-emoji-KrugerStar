@@ -55,7 +55,7 @@ export default forwardRef((props, inputRef) => {
 
   return (
     <div ref={containerRef} style={{ position: "relative", display: "inline" }}>
-      <button onClick={handleClick}>
+      <button onClick={handleClick} className="boton-emoji"> 
         😊
       </button>
       {isOpen ? (

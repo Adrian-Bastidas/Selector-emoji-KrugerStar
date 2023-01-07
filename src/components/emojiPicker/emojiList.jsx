@@ -1,3 +1,3 @@
 export default function EmojiList({ children }) {
-  return <div >{children}</div>;
+  return <div className="emojis-lista">{children}</div>;
 }

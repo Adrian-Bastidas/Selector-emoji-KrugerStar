@@ -5,7 +5,7 @@ export default function EmojiButton({ emoji, onClick }) {
   }
 
   return (
-    <button onClick={handleOnClick}>
+    <button onClick={handleOnClick} className={"emojis-lista"}>
       {emoji.symbol}
     </button>
   );

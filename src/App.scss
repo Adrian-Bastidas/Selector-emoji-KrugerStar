@@ -1,0 +1,43 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: black;
+  width: 40%;
+  height: 400px;
+  margin-top: 2%;
+  margin-left: 30%;
+  box-shadow: 2px 2px 20px black;;
+  border: 0;
+  border-radius:1rem;
+  margin-top: 10%;
+}
+body{
+  background: linear-gradient(to right, #7dded9, #9cb0e5); 
+}
+.boton-emoji{
+  background:transparent;
+  border: none;
+  font-size: 250%;
+  width: 30%;
+}
+.emojis-lista{
+  background:transparent;
+  border: none;
+  font-size: 130%;
+  background-color: white;
+  border-radius: 1rem;
+}
+.escritura{
+  margin-top: 5%;
+  width: 90%;
+  height: 200px;
+  resize: none;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+}
+.barra-busqueda{
+  outline: none;
+  border-radius: 1rem;
+}
