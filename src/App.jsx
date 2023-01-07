@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import EmojiPickerInput from './components/emojiPicker/emojiPickerInput';
+import EmojiPickerInput from './components/emojiPicker/EmojiPickerInput';
 
 function App() {
   return (

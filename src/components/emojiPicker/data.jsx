@@ -1,6 +1,6 @@
 import React from 'react'
 
-const data = [
+export const data = [
     {
         symbol: "😊",
         name:"cara alegre",
@@ -61,6 +61,4 @@ const data = [
         name:"caballo",
         keywords:"horse",
     },
-]
-
-export default data
+];
